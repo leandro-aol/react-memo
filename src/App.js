@@ -1,9 +1,11 @@
 import React from 'react';
+import PostList from "./components/PostList";
+import './App.css';
 
 const App = () => {
     return (
-        <div>
-            
+        <div className="App">
+            <PostList />
         </div>
     );
 };
